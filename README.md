@@ -1,0 +1,12 @@
+- Yêu cầu:
+    - Docker
+    - Docker Compose
+- Cách chạy project:
+    - Chạy command: `docker-compose up --build`
+    - Truy cập API: `http://localhost:8000/api/docs`
+
+- Nếu chạy trực tiếp bằng Fastapi trên máy thì:
+    - Cài môt trường ảo
+    - Cài đặt các dependencies: `pip install -r requirements.txt`
+    - Chạy project: `uvicorn main:app --reload` hoặc `fastapi dev main.py`
+    - Truy cập API: `http://localhost:8000/api/docs`
